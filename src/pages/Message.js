@@ -11,6 +11,7 @@ export const Message = () => {
             <div className='messageImage'>
             <img src={Massage} alt='' width='250px' height='230px'/>
             </div>
+            <div className="msgArea">
             <div className="form-area">
                 <form className="form-content">
                         <div className="mb-3">
@@ -23,7 +24,7 @@ export const Message = () => {
                             </select>
                             <div id="emailHelp" class="form-text">You can select any audience as you wish!</div>
                         </div>
-                        <div class="mb-3">
+                        <div className="mb-3">
                             <label for="Message" className="form-label">Message</label>
                             <input type="text" className="form-control" id="message" />
                         </div>
@@ -33,6 +34,7 @@ export const Message = () => {
                         </div>
                         <button type="submit" className="btn btn-primary">Send</button>
                 </form>
+             </div>
              </div>
         </div>
     )

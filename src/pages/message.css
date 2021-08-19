@@ -1,18 +1,22 @@
-
+ 
+ 
 
 .form-area{
-
+    margin-left: 20%;
     margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-   
+    width: 60%;
+    padding: 20px;
+    border: 3px solid rgb(81, 155, 81);
+    border-radius: 15px;
+    box-shadow: 5px 5px grey;
 }
 
 .form-content{
-    width: 50%;
-    height: 60px;
+    width: 60%;
+    height: 100%;
    
 }
 
