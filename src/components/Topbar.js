@@ -13,8 +13,7 @@ function Topbar() {
             </div>
                 <ul className="nav-links">
                     <Link to ="/Home"><li>Home</li></Link>
-                    <Link to ="/user_resistration"><li>User Registration</li></Link>
-                    <Link to ="/Message"> <li>Message</li></Link>
+                     
                     <Link to ="/Search"> <li>Search</li></Link>
                     
                     <Link to="/Login"><li><a href="#" className="log-in" style={{color:'#fbfbfb'}}>Logout</a></li></Link>
