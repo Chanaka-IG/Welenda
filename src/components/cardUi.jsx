@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 import './StylesOfCard.css'
 
 const Card = props => {
@@ -13,7 +13,7 @@ const Card = props => {
                 <p className="card-text text-secondary">
                    {props.desc}
                 </p>
-                <a href="#" className="btn btn-outline action-btn">Go</a>
+                <Link to ={props.nav}><a href="#" className="btn btn-outline action-btn">Go</a></Link>
             </div>
         </div>        
      );

@@ -26,7 +26,7 @@ const UserProfile = () => {
 			</div>
 			<div className="about">
 				<h5>About</h5>
-				<p>Im looking forwaard to connect as a seller with you</p>
+				<p>Im looking forward to connect as a seller with you</p>
 			</div>
 		</div>
 	</div>

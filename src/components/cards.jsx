@@ -14,11 +14,11 @@ const Cards = () => {
             <div className="card_container">
                
                 <div className="col-mr-5 ml-5 mg-0">
-                    <Card title="Registration" desc="You can View registration details from here" imgsrc={register}/>
+                    <Card title="Registration" desc="You can View registration details from here" imgsrc={register} nav='../user_resistration' />
                 </div>
              
                 <div className="col-mr-5 ml-5">
-                     <Card title="Complaints" desc="You can View complaints details from here" imgsrc={Complains}/>
+                     <Card title="Complaints" desc="You can View complaints details from here" imgsrc={Complains} nav='../Complaints'/>
                 </div>
                 <div className="col-mr-5 ml-5">
                      <Card title="Payments" desc="You can View payment details from here" imgsrc={money}/>
@@ -26,7 +26,7 @@ const Cards = () => {
                 
 
                 <div className="col-mr-5 ml-5">
-                     <Card title="Search" desc="You can View do some searchs from here" imgsrc={search}/>
+                     <Card title="Search" desc="You can View do some searchs from here" imgsrc={search} nav='../search' />
                 </div>
             </div>
             </div>

@@ -50,9 +50,7 @@ export const Search = () => {
             <div className='searchbuttonset'>
                 <input className='searchbutton' type='submit' name='searchbutton' value='Search'/>
             </div>
-            <div className='homebuttonset'>
-                <input className='homebutton' type='submit' name='homebutton' value='Home'/>
-            </div>
+          
         </div>
     )
 }

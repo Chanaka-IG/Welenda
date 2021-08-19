@@ -6,10 +6,12 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Message from './pages/Message';
 import Search from './pages/Search';
+import Complaints from './pages/Complaints';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 import HeroSection from './components/HeroSection';
 import './App.css'
+
 
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
           <Route path = "/User_profile" component={UserProfile} />
           <Route path = "/Message" component={Message} />
           <Route path = "/Search" component={Search} />
+          <Route path = "/Complaints" component={Complaints} />
         
          
       </Switch>

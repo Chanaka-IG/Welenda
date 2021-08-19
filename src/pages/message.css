@@ -1,0 +1,28 @@
+
+
+.form-area{
+
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.form-content{
+    width: 50%;
+    height: 60px;
+   
+}
+
+.selectbox{
+    margin-left: 25%;
+    background-color: aqua;
+}
+
+.form-select{
+    margin-left: 10%;
+    width: 50%;
+   
+}
