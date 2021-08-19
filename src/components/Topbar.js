@@ -8,12 +8,14 @@ import {Link} from 'react-router-dom'
 function Topbar() {
     return (
         <div className="nav">
-            <div ClassName="">
-                <a href="#"><img src={logo} alt="CeylonGig Logo" /> </a>
+            <div ClassName="leftside">
+                <a href="#"><img src={logo} alt="Welenda Logo" /> </a>
+                <span className="title">Admin Panel</span>
+
             </div>
                 <ul className="nav-links">
+                   
                     <Link to ="/Home"><li>Home</li></Link>
-                     
                     <Link to ="/Search"> <li>Search</li></Link>
                     
                     <Link to="/Login"><li><a href="#" className="log-in" style={{color:'#fbfbfb'}}>Logout</a></li></Link>

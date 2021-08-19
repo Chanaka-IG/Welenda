@@ -15,6 +15,12 @@
     font-family: Montserrat;
 }
 
+.title{  
+   margin-left: 30px;
+   font-size: 22px;
+   color: #0b7e1b;
+}
+
 .nav img{
     width: 10vh;
     height: 10vh;
@@ -55,10 +61,11 @@
 }
 
 .nav-links li{
+    margin-top: 10px;
     list-style: none;
     margin-left: 10px;
 }
-
+ 
 .burger{
     display: none;
     cursor: pointer;

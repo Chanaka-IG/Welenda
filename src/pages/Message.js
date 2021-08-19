@@ -28,6 +28,10 @@ export const Message = () => {
                             <label for="Message" className="form-label">Message</label>
                             <input type="text" className="form-control" id="message" />
                         </div>
+                        <div className="mb-3">
+                            <label for="UserID" className="form-label">User-ID</label>
+                            <input type="text" className="form-control" id="userID" />
+                        </div>
                         <div className="mb-3 form-check">
                             <input type="checkbox" className="form-check-input" id="exampleCheck1" />
                             <label className="form-check-label" for="exampleCheck1">Check me out</label>
