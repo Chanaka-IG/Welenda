@@ -21,7 +21,7 @@ const Cards = () => {
                      <Card title="Complaints" desc="You can View complaints details from here" imgsrc={Complains} nav='../Complaints'/>
                 </div>
                 <div className="col-mr-5 ml-5">
-                     <Card title="Payments" desc="You can View payment details from here" imgsrc={money}/>
+                     <Card title="Payments" desc="You can View payment details from here" imgsrc={money} nav='../Payments'/>
                 </div>
                 
 

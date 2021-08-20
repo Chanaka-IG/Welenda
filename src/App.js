@@ -11,6 +11,8 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 import HeroSection from './components/HeroSection';
 import './App.css'
+import Payments from './pages/Payments';
+import PaymentDetails from './pages/PaymentDetails';
 
 
 
@@ -30,6 +32,8 @@ function App() {
           <Route path = "/Message" component={Message} />
           <Route path = "/Search" component={Search} />
           <Route path = "/Complaints" component={Complaints} />
+          <Route path = "/Payments" component={Payments} />
+          <Route path = "/PaymentDetails" component={PaymentDetails} />
         
          
       </Switch>
