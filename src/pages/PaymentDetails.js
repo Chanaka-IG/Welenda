@@ -24,7 +24,7 @@ const PaymentDetails = () => {
 				<h6 className="user-email">anc@gmail.com</h6>
 			</div>
 			<div className="about">
-            <h2>Star Rating</h2>
+            <h2>Rating</h2>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>

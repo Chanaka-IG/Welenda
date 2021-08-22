@@ -13,6 +13,7 @@ import HeroSection from './components/HeroSection';
 import './App.css'
 import Payments from './pages/Payments';
 import PaymentDetails from './pages/PaymentDetails';
+import Suggestion from './pages/Suggestion';
 
 
 
@@ -34,6 +35,8 @@ function App() {
           <Route path = "/Complaints" component={Complaints} />
           <Route path = "/Payments" component={Payments} />
           <Route path = "/PaymentDetails" component={PaymentDetails} />
+          <Route path = "/Suggestion" component={Suggestion} />
+
         
          
       </Switch>

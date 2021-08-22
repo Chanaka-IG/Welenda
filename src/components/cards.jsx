@@ -26,7 +26,7 @@ const Cards = () => {
                 
 
                 <div className="col-mr-5 ml-5">
-                     <Card title="Search" desc="You can View do some searchs from here" imgsrc={search} nav='../search' />
+                     <Card title="Suggestions" desc="You can View suggestions from here" imgsrc={search} nav='../Suggestion' />
                 </div>
             </div>
             </div>
