@@ -17,7 +17,7 @@ function Suggestion() {
                     <span>Octiober 25</span>
                     <span className="read">Read</span>
                 </div>
-                <h1 className="blog-post__title">Suggestions</h1>
+                <h1 className="blog-post__title">Suggestion</h1>
                 <p className="blog-post__text">
                     iejro iweo9odlrf opqwrju awpdhna diose isuef oirgn ir
                     dthnirg jisef 
@@ -41,7 +41,7 @@ function Suggestion() {
                     <span>Octiober 25</span>
                     <span className="read">Read</span>
                 </div>
-                <h1 className="blog-post__title">Suggestions</h1>
+                <h1 className="blog-post__title">Suggestion</h1>
                 <p className="blog-post__text">
                     iejro iweo9odlrf opqwrju awpdhna diose isuef oirgn ir
                     dthnirg jisef 
@@ -63,7 +63,7 @@ function Suggestion() {
                     <span>Octiober 25</span>
                     <span className="read">Read</span>
                 </div>
-                <h1 className="blog-post__title">Suggestions</h1>
+                <h1 className="blog-post__title">Suggestion</h1>
                 <p className="blog-post__text">
                     iejro iweo9odlrf opqwrju awpdhna diose isuef oirgn ir
                     dthnirg jisef 
